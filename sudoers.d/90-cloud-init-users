@@ -1,0 +1,4 @@
+# Created by cloud-init v. 0.7.9 on Wed, 19 Sep 2018 21:47:02 +0000
+
+# User rules for centos
+centos, shane ALL=(ALL) NOPASSWD:ALL

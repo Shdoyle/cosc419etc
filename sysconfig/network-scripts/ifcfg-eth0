@@ -1,0 +1,15 @@
+# Created by cloud-init on instance boot automatically, do not edit.
+#
+BOOTPROTO=none
+DEFROUTE=yes
+DEVICE=eth0
+GATEWAY=159.89.112.1
+HWADDR=82:0b:31:6c:1a:01
+IPADDR=159.89.121.5
+IPADDR1=10.20.0.29
+MTU=1500
+NETMASK=255.255.240.0
+NETMASK1=255.255.0.0
+ONBOOT=yes
+TYPE=Ethernet
+USERCTL=no

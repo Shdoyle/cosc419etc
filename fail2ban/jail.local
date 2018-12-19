@@ -1,0 +1,20 @@
+[DEFAULT]
+bantime = 600
+findtime = 300
+maxretry = 5
+banaction = iptables-multiport
+ignoreip = 24.70.192.255
+
+[sshd]
+enabled = true
+port = 762
+
+[ssh-longterm]
+bantime = 604800
+fintime = 86400
+maxretry = 20
+enabled = true
+port = 762
+filter = sshd-aggressive
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
